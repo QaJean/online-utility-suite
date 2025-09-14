@@ -7,7 +7,7 @@ const Footer = () => {
         <p className="text-muted-foreground flex items-center justify-center space-x-2">
           <span>Feito com</span>
           <Heart className="w-4 h-4 text-destructive fill-current" />
-          <span>para facilitar seu dia. Volte sempre!</span>
+          <span>para facilitar seu dia. Volte sempre ao Meus Utilitários!</span>
         </p>
       </div>
     </footer>

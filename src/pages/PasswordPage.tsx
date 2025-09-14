@@ -1,0 +1,66 @@
+import Header from "@/components/Header";
+import Footer from "@/components/Footer";
+import PasswordGenerator from "@/components/utilities/PasswordGenerator";
+
+const PasswordPage = () => {
+  return (
+    <>
+      {/* SEO Meta Tags */}
+      <title>Gerador de Senhas Fortes Online – Crie Senhas Seguras | Meus Utilitários</title>
+      <meta name="description" content="Crie senhas fortes e seguras automaticamente. Use nosso gerador online grátis e proteja suas contas." />
+      <meta name="keywords" content="gerador de senha, senha forte, senha online, criar senha segura, gerador senha" />
+      <meta name="canonical" content="https://meusutilitarios.com/senha" />
+      
+      <div className="min-h-screen bg-gradient-to-br from-background to-muted/20">
+        <Header />
+        
+        <main className="pt-24 pb-8">
+          <div className="container mx-auto px-4">
+            <div className="max-w-md mx-auto">
+              <div className="text-center mb-8">
+                <h1 className="text-3xl font-bold text-primary mb-4">
+                  Gerador de Senhas Fortes
+                </h1>
+                <p className="text-muted-foreground">
+                  Crie senhas seguras e personalizadas para proteger suas contas online
+                </p>
+              </div>
+              
+              <PasswordGenerator />
+              
+              <div className="mt-8 p-6 bg-card rounded-lg border border-border">
+                <h3 className="font-semibold text-primary mb-3">Dicas de Segurança</h3>
+                <ul className="text-sm text-muted-foreground space-y-2">
+                  <li className="flex items-start space-x-2">
+                    <span className="text-success mt-1">•</span>
+                    <span>Use senhas diferentes para cada conta</span>
+                  </li>
+                  <li className="flex items-start space-x-2">
+                    <span className="text-success mt-1">•</span>
+                    <span>Prefira senhas com pelo menos 12 caracteres</span>
+                  </li>
+                  <li className="flex items-start space-x-2">
+                    <span className="text-success mt-1">•</span>
+                    <span>Inclua letras, números e símbolos</span>
+                  </li>
+                  <li className="flex items-start space-x-2">
+                    <span className="text-success mt-1">•</span>
+                    <span>Evite informações pessoais óbvias</span>
+                  </li>
+                  <li className="flex items-start space-x-2">
+                    <span className="text-success mt-1">•</span>
+                    <span>Use um gerenciador de senhas confiável</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </main>
+
+        <Footer />
+      </div>
+    </>
+  );
+};
+
+export default PasswordPage;
