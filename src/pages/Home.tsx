@@ -22,7 +22,7 @@ const Home = () => {
       color: "text-success"
     },
     {
-      title: "Sorteador de Números",
+      title: "Sorteador Inteligente",
       description: "Sorteie números de forma rápida e prática para suas necessidades",
       icon: <Shuffle className="w-8 h-8" />,
       link: "/sorteio",
