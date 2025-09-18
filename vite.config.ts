@@ -4,7 +4,7 @@ import path from "path";
 import { componentTagger } from "lovable-tagger";
 
 export default defineConfig(({ mode }) => ({
-  base: "/online-utility-suite/",
+  base: "./", // caminho relativo
   server: {
     host: "::",
     port: 8080,
@@ -16,3 +16,4 @@ export default defineConfig(({ mode }) => ({
     },
   },
 }));
+
