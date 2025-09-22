@@ -7,8 +7,14 @@ const PasswordPage = () => {
     <>
       {/* SEO Meta Tags */}
       <title>Gerador de Senhas Fortes Online – Crie Senhas Seguras | Meus Utilitários</title>
-      <meta name="description" content="Crie senhas fortes e seguras automaticamente. Use nosso gerador online grátis e proteja suas contas." />
-      <meta name="keywords" content="gerador de senha, senha forte, senha online, criar senha segura, gerador senha" />
+      <meta
+        name="description"
+        content="Crie senhas fortes e seguras automaticamente. Use nosso gerador online grátis e proteja suas contas."
+      />
+      <meta
+        name="keywords"
+        content="gerador de senha, senha forte, senha online, criar senha segura, gerador senha"
+      />
       <meta name="canonical" content="https://meusutilitarios.com/senha" />
 
       <div className="min-h-screen bg-gradient-to-br from-background to-muted/20">
@@ -24,14 +30,6 @@ const PasswordPage = () => {
               <p className="text-muted-foreground">
                 Crie senhas seguras e personalizadas para proteger suas contas online
               </p>
-
-              {/* Local para anúncio AdSense */}
-              <div className="my-6 text-center">
-                <div id="adsense-senha" className="bg-gray-100 border border-gray-300 p-4 rounded">
-                  {/* Código do anúncio será inserido aqui */}
-                  <p className="text-sm text-muted-foreground">[Anúncio AdSense]</p>
-                </div>
-              </div>
             </div>
 
             {/* Área da ferramenta */}
@@ -40,6 +38,21 @@ const PasswordPage = () => {
             </div>
 
             {/* Informações adicionais */}
+            <div className="p-6 bg-card rounded-lg border border-border mb-6">
+              <h3 className="font-semibold text-primary mb-3">Por que usar um gerador de senhas?</h3>
+              <p className="text-sm text-muted-foreground mb-4">
+                A maioria dos ataques virtuais ocorre porque senhas fracas ou repetidas são usadas em várias contas. 
+                O gerador de senhas é uma ferramenta essencial para criar combinações únicas, longas e difíceis de adivinhar, 
+                reduzindo significativamente os riscos de invasão. 
+              </p>
+              <p className="text-sm text-muted-foreground mb-4">
+                Esse tipo de utilitário é muito usado para proteger e-mails, redes sociais, serviços bancários e qualquer outra 
+                conta que contenha informações pessoais. Com ele, você garante mais segurança sem precisar inventar senhas 
+                manualmente.
+              </p>
+            </div>
+
+            {/* Dicas de segurança */}
             <div className="p-6 bg-card rounded-lg border border-border">
               <h3 className="font-semibold text-primary mb-3">Dicas de Segurança</h3>
               <ul className="text-sm text-muted-foreground space-y-2">

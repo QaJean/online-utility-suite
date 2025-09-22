@@ -24,14 +24,6 @@ const SorteioPage = () => {
               <p className="text-muted-foreground">
                 Sorteie números ou nomes de forma rápida e prática para suas necessidades
               </p>
-
-              {/* Local para anúncio AdSense */}
-              <div className="my-6 text-center">
-                <div id="adsense-sorteio" className="bg-gray-100 border border-gray-300 p-4 rounded">
-                  {/* Código do anúncio será inserido aqui */}
-                  <p className="text-sm text-muted-foreground">[Anúncio AdSense]</p>
-                </div>
-              </div>
             </div>
 
             {/* Área da ferramenta */}
@@ -55,6 +47,16 @@ const SorteioPage = () => {
                   <p>
                     Adicione os nomes à lista. O botão de sorteio só será habilitado com pelo menos 2 nomes.
                     Você pode sortear quantos participantes quiser. Ideal para escolher equipes ou ganhadores de prêmios.
+                  </p>
+                </div>
+                                <div>
+                  <h4 className="font-medium text-foreground mb-1">Explicação de utilidade</h4>
+                  <p>
+                      O sorteador é útil em diversas situações: rifas, promoções, dinâmicas em sala de aula, distribuição de prêmios e até mesmo para decisões pessoais.
+
+                      Ao permitir que números ou nomes sejam sorteados de forma aleatória, a ferramenta garante imparcialidade e praticidade.
+
+                      É uma alternativa simples para quem não quer depender de papéis, bilhetes ou métodos manuais, mantendo a transparência nos resultados.
                   </p>
                 </div>
               </div>

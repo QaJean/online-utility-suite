@@ -7,8 +7,14 @@ const MoedaPage = () => {
     <>
       {/* SEO Meta Tags */}
       <title>Conversor de Moedas Online – Cotação Atualizada | Meus Utilitários</title>
-      <meta name="description" content="Converta valores entre diferentes moedas com cotação atualizada em tempo real. Simples, rápido e grátis." />
-      <meta name="keywords" content="conversor de moedas, real para dólar, câmbio online, cotação moeda, conversor BRL USD" />
+      <meta
+        name="description"
+        content="Converta valores entre diferentes moedas com cotação atualizada em tempo real. Simples, rápido e grátis."
+      />
+      <meta
+        name="keywords"
+        content="conversor de moedas, real para dólar, câmbio online, cotação moeda, conversor BRL USD"
+      />
       <meta name="canonical" content="https://meusutilitarios.com/moeda" />
 
       <div className="min-h-screen bg-gradient-to-br from-background to-muted/20">
@@ -24,14 +30,6 @@ const MoedaPage = () => {
               <p className="text-muted-foreground">
                 Converta valores entre diferentes moedas com cotações atualizadas em tempo real
               </p>
-
-              {/* Local para anúncio AdSense */}
-              <div className="my-6 text-center">
-                <div id="adsense-moeda" className="bg-gray-100 border border-gray-300 p-4 rounded">
-                  {/* Código do anúncio será inserido aqui */}
-                  <p className="text-sm text-muted-foreground">[Anúncio AdSense]</p>
-                </div>
-              </div>
             </div>
 
             {/* Área da ferramenta */}
@@ -40,6 +38,22 @@ const MoedaPage = () => {
             </div>
 
             {/* Informações adicionais sobre moedas */}
+            <div className="p-6 bg-card rounded-lg border border-border mb-6">
+              <h3 className="font-semibold text-primary mb-3">Por que usar um conversor de moedas?</h3>
+              <p className="text-sm text-muted-foreground mb-4">
+                O conversor de moedas é uma ferramenta essencial para quem realiza compras internacionais,
+                trabalha com comércio exterior ou simplesmente quer acompanhar o valor de diferentes moedas
+                em relação ao Real. Ele ajuda a entender quanto seu dinheiro vale em outra moeda e a planejar
+                melhor gastos em viagens, investimentos e negociações.
+              </p>
+              <p className="text-sm text-muted-foreground mb-4">
+                Ter acesso à cotação em tempo real facilita decisões financeiras e evita surpresas com
+                variações cambiais. Além disso, é muito utilizado por profissionais de finanças, turistas
+                e até mesmo no dia a dia de quem acompanha notícias econômicas.
+              </p>
+            </div>
+
+            {/* Lista de moedas disponíveis */}
             <div className="p-6 bg-card rounded-lg border border-border">
               <h3 className="font-semibold text-primary mb-3">Moedas Disponíveis</h3>
               <div className="grid grid-cols-2 gap-4 text-sm">

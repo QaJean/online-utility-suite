@@ -24,14 +24,6 @@ const ImcPage = () => {
               <p className="text-muted-foreground">
                 Descubra seu Índice de Massa Corporal e saiba se está no peso ideal para sua altura
               </p>
-
-              {/* Local para anúncio AdSense */}
-              <div className="my-6 text-center">
-                <div id="adsense-imc" className="bg-gray-100 border border-gray-300 p-4 rounded">
-                  {/* Código do anúncio será inserido aqui */}
-                  <p className="text-sm text-muted-foreground">[Anúncio AdSense]</p>
-                </div>
-              </div>
             </div>
 
             {/* Área da ferramenta */}
@@ -43,7 +35,9 @@ const ImcPage = () => {
             <div className="p-6 bg-card rounded-lg border border-border">
               <h3 className="font-semibold text-primary mb-3">Sobre o IMC</h3>
               <p className="text-sm text-muted-foreground mb-4">
-                O Índice de Massa Corporal (IMC) é uma medida internacional usada para calcular se uma pessoa está no peso ideal.
+                O Índice de Massa Corporal (IMC) é uma medida internacional usada para avaliar se uma pessoa está dentro do peso ideal em relação à sua altura. Ele é amplamente utilizado por médicos, nutricionistas e profissionais de saúde como uma forma rápida de identificar riscos de sobrepeso ou desnutrição.
+
+Embora seja um cálculo simples, o IMC ajuda a direcionar hábitos de vida mais saudáveis e pode ser o primeiro passo para buscar orientação profissional. Vale lembrar que ele não substitui exames médicos detalhados, já que não considera fatores como massa muscular ou percentual de gordura.
               </p>
               <div className="space-y-2 text-sm">
                 <div className="flex justify-between">

@@ -26,13 +26,6 @@ const NotFound = () => {
             A página que você está procurando não existe ou foi movida. Verifique o endereço ou volte à página inicial.
           </p>
 
-          {/* Local para anúncio AdSense opcional */}
-          <div className="my-6">
-            <div id="adsense-notfound" className="bg-gray-100 border border-gray-300 p-4 rounded">
-              <p className="text-sm text-muted-foreground">[Anúncio AdSense]</p>
-            </div>
-          </div>
-
           <Button asChild variant="utility" className="mt-4">
             <a href="/" className="inline-flex items-center space-x-2">
               <Home className="w-4 h-4" />
